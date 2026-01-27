@@ -174,12 +174,84 @@ section {
 
 /* PROFILE SECTION */
 
+
 #profile {
   position: relative;
   display: flex;
   justify-content: center;
   gap: 5rem;
 }
+
+.hero-tagline {
+  margin-top: 2px;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* BIG WHATSAPP BUTTON */
+.whatsapp-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 14px 30px;
+  background: linear-gradient(135deg, #25D366, #1ebe5d);
+  color: white;
+  font-weight: 700;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.05rem;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+}
+
+.whatsapp-cta:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 14px 35px rgba(37, 211, 102, 0.65);
+  color: white;
+}
+
+/* SOCIAL ICONS - MODERN LOOK */
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+#socials img {
+  height: 50px;
+  width: 50px;
+  padding: 9px;
+  border-radius: 50%;
+  background: #f3f3f3;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+#socials img:hover {
+  transform: translateY(-6px) scale(1.1);
+}
+
+/* HIGHLIGHT WHATSAPP ICON */
+.whatsapp-icon {
+  background: #25D366 !important;
+  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.7);
+}
+
+/* CONTACT TEXT */
+.contact-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+
+
 
 .section__pic-container {
   display: flex;
@@ -211,12 +283,7 @@ section {
   text-align: center;
 }
 
-#socials-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
-}
+
 
 /* ICONS */
 
@@ -445,11 +512,10 @@ article .icon {
 
 .contact-icon {
   cursor: default;
+  width: 50px;
+  height: 50px;
 }
 
-.email-icon {
-  height: 2.5rem;
-}
 
 /* FOOTER SECTION */
 

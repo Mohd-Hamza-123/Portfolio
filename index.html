@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -42,59 +42,93 @@
         </div>
       </div>
     </nav>
+
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profileImg.png" alt="John Doe profile picture" />
       </div>
+
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Mohd Hamza</h1>
         <p class="section__text__p2">Web Developer</p>
+
+        <p class="hero-tagline">
+          I build fast, modern websites for businesses 🚀
+        </p>
+
         <div class="btn-container">
           <button
             type="button"
             class="btn btn-color-2 cursor-pointer"
-            onclick="window.open('https://drive.google.com/file/d/1XLwtC9h3hO8ZRCJHqk0kAOn73GUZDw21/view?usp=sharing', '_blank')"
+            onclick="
+              window.open(
+                'https://drive.google.com/file/d/1XLwtC9h3hO8ZRCJHqk0kAOn73GUZDw21/view?usp=sharing',
+                '_blank',
+              )
+            "
           >
             See Resume
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+
+          <button
+            class="btn btn-color-1"
+            onclick="location.href = './#contact'"
+          >
             Contact Info
           </button>
         </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="window.open('https://www.linkedin.com/in/mohd-hamza-18959427a/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=in', '_blank')"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="window.open('https://github.com/Mohd-Hamza-123', '_blank')"
-          />
 
-          <img
-            style="border-radius: 50%"
-            src="./assets/Insta.jpg"
-            alt="My Instgram Profile"
-            class="icon"
-            onclick="window.open('https://www.instagram.com/byte_master_hamza/', '_blank')"
-          />
+        <!-- 🔥 BIG WHATSAPP BUTTON -->
+        <a
+          href="https://wa.me/9795840047?text=Hi%20I%20want%20a%20website"
+          target="_blank"
+          class="whatsapp-cta"
+        >
+          💬 Hire Me on WhatsApp
+        </a>
 
-          <img
-            height="20px"
-            style="border-radius: 50%"
-            src="https://m.media-amazon.com/images/I/61w1Q5OxE2L.jpg"
-            alt="Twitter Profile"
-            class="icon"
-            onclick="window.open('https://twitter.com/Mohd_Hamza_byte', '_blank')"
-          />
+        <!-- SOCIAL LINKS (UPGRADED UI) -->
+        <div id="socials">
+          <a
+            href="https://www.linkedin.com/in/mohd-hamza-18959427a/"
+            target="_blank"
+          >
+            <img src="./assets/linkedin.png" alt="LinkedIn" />
+          </a>
+
+          <a href="https://github.com/Mohd-Hamza-123" target="_blank">
+            <img src="./assets/github.png" alt="GitHub" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/byte_master_hamza/"
+            target="_blank"
+          >
+            <img src="./assets/Insta.jpg" alt="Instagram" />
+          </a>
+
+          <a href="https://twitter.com/Mohd_Hamza_byte" target="_blank">
+            <img
+              src="./assets/Twitter.png"
+              alt="Twitter"
+            />
+          </a>
+
+          <a href="https://wa.me/9795840047" target="_blank">
+            <img
+              src="./assets/Whatsapp.png"
+              alt="WhatsApp"
+              
+            />
+          </a>
         </div>
+
+        <p class="contact-text">📩 Available for freelance work</p>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -142,7 +176,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href = './#experience'"
       />
     </section>
 
@@ -438,7 +472,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href = './#projects'"
       />
     </section>
 
@@ -448,8 +482,7 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-
-           <div class="details-container color-container">
+          <div class="details-container color-container">
             <div class="article-container">
               <img
                 src="./assets/Kwik Docs.png"
@@ -469,7 +502,12 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/Mohd-Hamza-123/docsnode', '_blank')"
+                onclick="
+                  window.open(
+                    'https://github.com/Mohd-Hamza-123/docsnode',
+                    '_blank',
+                  )
+                "
               >
                 Github
               </button>
@@ -503,13 +541,20 @@
             <div class="btn-container" style="margin-top: 10px">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/Mohd-Hamza-123/Thoughtify', '_blank')"
+                onclick="
+                  window.open(
+                    'https://github.com/Mohd-Hamza-123/Thoughtify',
+                    '_blank',
+                  )
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://thoughtify.vercel.app/', '_blank')"
+                onclick="
+                  window.open('https://thoughtify.vercel.app/', '_blank')
+                "
               >
                 Live Demo
               </button>
@@ -535,32 +580,43 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Mohd-Hamza-123/Notes'"
+                onclick="
+                  location.href = 'https://github.com/Mohd-Hamza-123/Notes'
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://notesbyhamza.netlify.app/'"
+                onclick="location.href = 'https://notesbyhamza.netlify.app/'"
               >
                 Live Demo
               </button>
             </div>
           </div>
-        
         </div>
       </div>
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href = './#contact'"
       />
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/Whatsapp.png"
+            alt="WhatsApp"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://wa.me/9795840047" target="_blank"> WhatsApp </a>
+          </p>
+        </div>
         <div class="contact-info-container">
           <img
             src="./assets/email.png"
