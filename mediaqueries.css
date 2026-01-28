@@ -88,7 +88,10 @@
   }
 
   .contact-info-container {
-    margin: 0;
+    margin: 5px 0px;
+    word-break: break-all;
+    text-align: center;
+
   }
 
   .contact-info-container p,
@@ -126,5 +129,79 @@
 
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section__text {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .hero-tagline {
+    max-width: 280px;
+    margin: 10px auto 14px auto;
+    line-height: 1.4;
+  }
+
+  .btn-container {
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .whatsapp-cta {
+    margin-top: 14px;
+    padding: 12px 22px;
+    font-size: 0.95rem;
+  }
+
+  #socials {
+    margin-top: 14px;
+    gap: 10px;
+  }
+
+  #socials img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .contact-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .section__pic-container img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 200px;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+  .about-pic {
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin: 10px auto;
   }
 }
