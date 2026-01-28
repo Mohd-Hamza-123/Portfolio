@@ -231,12 +231,12 @@ section {
   display: flex;
   justify-content: center;
   gap: 14px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #socials img {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   margin: 0px 5px;
   border-radius: 50%;
   background: #f3f3f3;
