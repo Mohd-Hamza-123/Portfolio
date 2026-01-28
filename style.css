@@ -225,7 +225,7 @@ section {
 #socials img {
   height: 50px;
   width: 50px;
-  padding: 9px;
+  padding: 3px;
   border-radius: 50%;
   background: #f3f3f3;
   transition: 0.3s ease;
@@ -258,6 +258,11 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+.section__pic-container img {
+  border-radius: 50%;
+  border: 6px solid #f3f3f3;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .section__text {
