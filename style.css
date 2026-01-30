@@ -216,8 +216,9 @@ section {
   text-decoration: none;
   font-size: 1.05rem;
   letter-spacing: 0.3px;
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
   box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+  /* opacity: 1; */
 }
 
 .whatsapp-cta:hover {
