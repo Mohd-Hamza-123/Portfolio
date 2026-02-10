@@ -9,12 +9,6 @@ function toggleMenu() {
 
 const tl = gsap.timeline();
 
-tl.from(".logo", {
-  y: -45,
-  duration: 0.5,
-  delay: 0.3,
-  opacity: 0,
-})
 
 tl.from("#desktop-nav .nav-links li", {
   y: -45,
@@ -22,43 +16,6 @@ tl.from("#desktop-nav .nav-links li", {
   duration: 0.5,
   stagger: 0.10,
 })
-
-gsap.from("#profile .section__pic-container", {
-  delay: 0.3,
-  scale: 0,
-  opacity: 0,
-  duration: 1,
-  rotate: 80
-})
-
-gsap.from("#profile .section__text__p1", {
-  delay: 0.3,
-  opacity: 0,
-  duration: 1,
-  x: 70,
-})
-
-
-gsap.from("#profile .section__text__p2, .hero-tagline",{
-  delay : 0.3,
-  opacity : 0,
-  duration : 1,
-  x : -70
-})
-
-gsap.from("#profile .title , .btn-container", {
-  delay: 0.3,
-  opacity: 0,
-  duration: 1,
-  x: 70
-})
-
-gsap.from(".whatsapp-cta", {
-   opacity : 0,
-   duration : 1,
-   x : -70,
-})
-
 
 gsap.from("#socials", {
   x: 70,
