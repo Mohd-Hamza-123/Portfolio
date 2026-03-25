@@ -6,25 +6,7 @@ function toggleMenu() {
 }
 
 
-
 const tl = gsap.timeline();
-
-
-tl.from("#desktop-nav .nav-links li", {
-  y: -45,
-  opacity: 0,
-  duration: 0.5,
-  stagger: 0.10,
-})
-
-gsap.from("#socials", {
-  x: 70,
-  opacity: 0,
-  duration : 1.5,
-  stagger: 0.3
-})
-
-
 
 gsap.from("#about .section__text__p1 , #about .title", {
   x: -100,
@@ -46,7 +28,6 @@ gsap.from("#about .section__pic-container", {
   },
 })
 
-
 gsap.from("#about .details-container , #about .text-container", {
   y: 100,
   opacity: 0,
@@ -57,8 +38,6 @@ gsap.from("#about .details-container , #about .text-container", {
     scroller: "body"
   },
 })
-
-
 
 gsap.from("#experience .details-container", {
   y: 50,
@@ -82,9 +61,6 @@ gsap.from("#projects .details-container", {
     scroller: "body"
   },
 })
-
-
-
 
 gsap.from("#contact .contact-info-upper-container", {
   y: 50,

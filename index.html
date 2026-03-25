@@ -1,10 +1,10 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>My Portfolio</title>
     <link
       rel="icon"
@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
+
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Mohd Hamza</div>
+      <h1 class="logo">Mohd Hamza</h1>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -26,8 +27,9 @@
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
-      <div class="logo">Mohd Hamza</div>
+      <h1 class="logo">Mohd Hamza</h1>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -44,9 +46,9 @@
     </nav>
 
     <section id="profile">
-      <div class="section__pic-container">
+      <figure class="section__pic-container">
         <img src="./assets/Hamza.webp" alt="Mohd Hamza" />
-      </div>
+      </figure>
 
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -97,7 +99,8 @@
         <div id="socials">
           <a
             href="https://www.linkedin.com/in/mohd-hamza-18959427a/"
-            target="_blank">
+            target="_blank"
+          >
             <img src="./assets/linkedin.png" alt="LinkedIn" />
           </a>
 
@@ -121,7 +124,7 @@
           </a>
         </div>
 
-        <p class="contact-text">📩 Available for freelance work</p>
+        <p class="contact-text">Available for freelance work</p>
       </div>
     </section>
 
@@ -298,7 +301,7 @@
                 />
                 <div>
                   <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
                 </div>
               </article>
 
@@ -358,14 +361,19 @@
             <div class="article-container">
               <article>
                 <img
+                  src="./assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>MySQL</h3>
+              </article>
+              <article>
+                <img
                   src="./assets/mongodb.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
-                  <h3>MongoDB</h3>
-                  <p>Intermediate</p>
-                </div>
+                <h3>MongoDB</h3>
               </article>
 
               <article>
@@ -374,10 +382,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
+                <h3>Git</h3>
               </article>
 
               <article>
@@ -386,10 +391,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
-                  <h3>GitHub</h3>
-                  <p>Intermediate</p>
-                </div>
+                <h3>GitHub</h3>
               </article>
             </div>
           </div>
@@ -484,8 +486,6 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-
-
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -496,7 +496,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Kwik Docs</h2>
             <p>
-             A developer documentation platform with built-in code editors for HTML, CSS, JavaScript, and Python.
+              A developer documentation platform with built-in code editors for
+              HTML, CSS, JavaScript, and Python.
             </p>
             <div class="btn-container">
               <button
@@ -512,7 +513,8 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="window.open('https://kwikdocs.dev', '_blank')">
+                onclick="window.open('https://kwikdocs.dev', '_blank')"
+              >
                 Live Demo
               </button>
             </div>
@@ -529,7 +531,8 @@
             </div>
             <h2 class="experience-sub-title project-title">Thoughtify</h2>
             <p>
-             A Q&A platform where users can post questions, share answers, and engage in discussions.
+              A Q&A platform where users can post questions, share answers, and
+              engage in discussions.
             </p>
             <div class="btn-container" style="margin-top: 10px">
               <button
